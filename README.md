@@ -1,3 +1,45 @@
+# FUNCTIONAL PROGRAMMING in Haskell
+
+This project provides advanced solutions to various functional programming problems, implemented in Haskell. Created as part of the Functional Programming course, it puts into practice advanced language concepts such as monads, functors, lazy evaluation, and complex recursion, demonstrating the power and versatility of functional programming.
+
+## Project Contents
+
+### 1. Monads and Lazy Evaluation
+Utilizing the `Maybe`, `IO`, and `Reader` monads to manage side effects and control the evaluation of expressions. These monads allow handling errors, user interaction, and context-dependent evaluation.
+
+### 2. Functors and Applicatives
+Implementing and utilizing functions like `fmap`, `pure`, and `(<*>)` to demonstrate the power of functional composition. These concepts are fundamental for manipulating and transforming data in an elegant and robust manner.
+
+### 3. Expression Evaluation and Evaluation Trees
+Defining custom types for mathematical expressions and evaluating them using abstract syntax trees. The focus is on creating data representations that can be evaluated efficiently and flexibly.
+
+### 4. Logic Problems and Boolean Evaluation
+Defining logical operators and evaluating logical expressions in a controlled environment (using the `Prop` type). This section explores how to express and evaluate logical problems using Haskell.
+
+### 5. Data Structures and Custom Classes
+Implementing advanced data structures such as search trees, vectors, and custom collections. These are created using Haskell's type classes (e.g., `Collection`, `ArbInfo`, and `GeoOps`) to extend the language's capabilities and solve specific problems.
+
+### 6. Functional List Transformation
+Using higher-order functions like `map`, `filter`, `foldr`, and `foldl` for data manipulation and calculation optimization. These functions are essential in functional programming for operating on data collections in a declarative way.
+
+## Demonstrated Concepts
+
+- **Advanced Recursion:** Problems solved using deep and performance-optimized recursion.  
+- **Lazy Evaluation Paradigm:** Delayed execution of calculations to enhance efficiency.  
+- **Composition and Higher-Order Functions:** Using functional composition to solve problems elegantly and concisely.  
+- **Abstraction and Code Reusability:** Employing type classes and instances to abstract behaviors and reuse functional logic.  
+- **Managing Side Effects:** Controlling side effects and user interaction through monads like `IO` and `Reader`.  
+
+## Project Goals
+
+- **Clean Functional Evaluation:** Implementing functional solutions without uncontrolled side effects.  
+- **Advanced Type Manipulation:** Creating and utilizing custom types to solve diverse problems.  
+- **Modularity and Abstraction:** Designed to demonstrate principles of modularity and code reuse in Haskell.  
+
+This project can serve as a learning foundation for anyone who wishes to understand and deepen their knowledge of functional programming concepts applied in Haskell.
+
+___
+
 # PROGRAMARE FUNCȚIONALĂ în Haskell
 
 Proiectul de față oferă soluții avansate la diverse probleme de programare funcțională, implementate în Haskell. Realizat în cadrul cursului de Programare Funcțională, acest proiect pune în practică concepte avansate ale limbajului, precum monade, functori, evaluare leneșă și recursivitate complexă, demonstrând puterea și versatilitatea programării funcționale.
